@@ -32,10 +32,10 @@
 
         lower {
             bindings = <
-&kp LS(GRAVE)  &kp EXCL  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
-&kp DEL        &kp F1    &kp F2       &kp F3    &kp F4      &kp F5       &kp F6     &kp UNDER      &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
-&trans         &kp F7    &kp F8       &kp F9    &kp F10     &kp F11      &kp F12    &trans         &trans        &trans                &trans                 &kp RET
-&trans         &trans    &trans       &trans    &trans      &trans       &trans     &mo 3          &kp C_PREV    &kp HOME              &kp END                &kp C_NEXT
+&kp LS(GRAVE)  &kp LS(EXCLAMATION)  &kp LS(AT_SIGN)  &kp LS(POUND)  &kp LS(DOLLAR)  &kp LS(PERCENT)  &kp CARET  &kp LS(AMPERSAND)  &kp LS(ASTERISK)  &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp DEL
+&kp DEL        &kp F1               &kp F2           &kp F3         &kp F4          &kp F5           &kp F6     &kp UNDER          &kp PLUS          &kp LEFT_BRACKET          &kp RIGHT_BRACKET          &kp PIPE
+&trans         &kp F7               &kp F8           &kp F9         &kp F10         &kp F11          &kp F12    &trans             &trans            &trans                    &trans                     &kp RET
+&trans         &trans               &trans           &trans         &trans          &trans           &trans     &mo 3              &kp C_PREV        &kp HOME                  &kp END                    &kp C_NEXT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
