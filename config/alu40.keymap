@@ -32,10 +32,10 @@
 
         lower {
             bindings = <
-&mt LEFT_SHIFT GRAVE  &mt LEFT_SHIFT EXCL  &mt LEFT_SHIFT AT  &mt LEFT_SHIFT POUND  &mt LEFT_SHIFT DOLLAR  &mt LEFT_SHIFT PERCENT  &mt LEFT_SHIFT CARET  &mt LEFT_SHIFT AMPERSAND  &mt LEFT_SHIFT ASTERISK  &mt LEFT_SHIFT LEFT_PARENTHESIS  &mt LEFT_SHIFT RIGHT_PARENTHESIS  &kp DEL
-&kp DEL               &kp F1               &kp F2             &kp F3                &kp F4                 &kp F5                  &kp F6                &kp UNDER                 &kp PLUS                 &kp LEFT_BRACKET                 &kp RIGHT_BRACKET                 &kp PIPE
-&trans                &kp F7               &kp F8             &kp F9                &kp F10                &kp F11                 &kp F12               &trans                    &trans                   &trans                           &trans                            &kp RET
-&trans                &trans               &trans             &trans                &trans                 &trans                  &trans                &mo 3                     &kp C_PREV               &kp HOME                         &kp END                           &kp C_NEXT
+&kp LS(GRAVE)  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(RIGHT_PARENTHESIS)  &kp DEL
+&kp DEL        &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &kp F6            &kp UNDER         &kp PLUS          &kp LEFT_BRACKET  &kp RIGHT_BRACKET          &kp PIPE
+&trans         &kp F7            &kp F8            &kp F9            &kp F10           &kp F11           &kp F12           &trans            &trans            &trans            &trans                     &kp RET
+&trans         &trans            &trans            &trans            &trans            &trans            &trans            &mo 3             &kp C_PREV        &kp HOME          &kp END                    &kp C_NEXT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
