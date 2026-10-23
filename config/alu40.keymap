@@ -65,7 +65,7 @@
 
         deadlock {
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4     &kp N5     &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4     &kp N5     &tog 4  &trans  &trans  &trans  &trans  &trans
 &kp V    &kp Q   &kp W   &kp E   &kp R      &kp T      &trans  &trans  &trans  &trans  &kp P   &trans
 &kp TAB  &kp A   &kp S   &kp D   &kp F      &kp G      &trans  &trans  &trans  &trans  &tog 0  &kp RET
 &kp Z    &kp X   &kp C   &mo 5   &kp RSHFT  &kp SPACE  &trans  &trans  &trans  &trans  &trans  &trans
